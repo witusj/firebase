@@ -109,7 +109,7 @@ notitiesRef.on('child_added', function (snapshot) {
   var time = timeStampToDate(snapshot.val().timestamp);
 
   $notities.prepend(
-    '<div class="card w-20">' +
+    '<div class="card w-50">' +
       '<div class="card-block">' +
           '<h3 class="card-header card-inverse card-warning p-2 text-center">' + voor + '</h3>' +
           '<h5 class="card-title text-center card-inverse" style="background-color: #AAB7B8;">' + organisatie + '</h5>' +
