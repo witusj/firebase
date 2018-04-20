@@ -114,7 +114,7 @@ notitiesRef.on('child_added', function (snapshot) {
           '<h3 class="card-header card-inverse card-warning p-2 text-center">' + voor + '</h3>' +
           '<h5 class="card-title text-center card-inverse" style="background-color: #AAB7B8;">' + organisatie + '</h5>' +
           '<p class="card-text card-outline-secondary">' + notitie + '</p>' +
-          '<p class="card-footer"><small class="text-muted">Geplaatst op: ' + time + '</small></p>' +
+          '<p class="card-footer"><small class="text-muted">' + time + '</small></p>' +
       '</div>' +
     '</div>'
   );
